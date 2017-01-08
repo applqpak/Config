@@ -1,2 +1,1 @@
-# Config
-Create a config for your PHP projects with ease!
+# [USAGE](https://github.com/applqpak/Config/blob/master/src/Config/example.php)
