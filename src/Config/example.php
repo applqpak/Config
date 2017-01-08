@@ -26,7 +26,7 @@
    */
    $cfg     = new Config('config.txt', false);
    $cfg->set('array', ['message' => 'Hello, world!']);
-   $message = $cfg->getNested('array', 'message'); //get key 'message' from array 'array'
+   $message = $cfg->getNested('array', 'message'); //get value of key 'message' from array 'array'
    echo $message;
-   $cfg->setNested('array', 'message', 'Hello, Mars!'); //set key 'message' to 'Hello, Mars!' in array 'array'
+   $cfg->setNested('array', 'message', 'Hello, Mars!'); //set value of key 'message' to 'Hello, Mars!' in array 'array'
    echo $cfg->getNested('array', 'message'); //value of key 'message' has been changed
